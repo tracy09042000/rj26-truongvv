@@ -3,11 +3,11 @@ import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import ItemUser from './features/ItemUser';
-import ItemUserClass from './features/ItemUserClass';
 import BaiTap1 from './Bt1Session2/BaiTap1';
 import BaiTap2 from './Bt2Session2/BaiTap2';
 import BaiTap3 from './Bt3Session2/BaiTap3';
 import Block3 from './Block3Session2/Block3';
+import ItemUserClass from './features/ItemUserClass';
 
 //custom type
 
@@ -56,15 +56,16 @@ function App() {
 
     // <BaiTap3 title={"Technology"} topic={"Harman Kadon Onyx Studio Mini, Reviews & Experiences"} copyright={"Feb 21, 2021 by drfurion"}/>
 
-    <div>
-      <div style={{display:"flex"}}>
-        <Block3 title={"Facebook"} total={"5,00,000 Likes"} color={"cornflowerblue"} icon={"fa-brands fa-facebook-f"} />
-        <Block3 title={"Twitter"} total={"40,000 Tweets"} color={"deepskyblue"} icon={"fa-brands fa-twitter"}  />
-        <Block3 title={"Google +"} total={"4,60,000 Plus"} color={"coral"} icon={"fa-brands fa-google-plus-g"}  />
-        <Block3 title={"Pinterest"} total={"34,000 Pins"} color={"tomato"} icon={"fa-brands fa-pinterest"}  />
-      </div>
-    </div>
-
+    // <div>
+    //   <div style={{display:"flex"}}>
+    //     <Block3 title={"Facebook"} total={"5,00,000 Likes"} color={"cornflowerblue"} icon={"fa-brands fa-facebook-f"} />
+    //     <Block3 title={"Twitter"} total={"40,000 Tweets"} color={"deepskyblue"} icon={"fa-brands fa-twitter"}  />
+    //     <Block3 title={"Google +"} total={"4,60,000 Plus"} color={"coral"} icon={"fa-brands fa-google-plus-g"}  />
+    //     <Block3 title={"Pinterest"} total={"34,000 Pins"} color={"tomato"} icon={"fa-brands fa-pinterest"}  />
+    //   </div>
+    // </div>
+    <ItemUserClass/>
+    
 
     // <div className="App">
     //   <header className="App-header">
